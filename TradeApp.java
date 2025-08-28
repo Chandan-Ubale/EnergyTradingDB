@@ -1,4 +1,3 @@
-// Source code for TradeApp with Class.forName added
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -10,17 +9,17 @@ import java.util.Scanner;
 public class TradeApp {
   static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=EnergyTradingDB;encrypt=false;integratedSecurity=true;";
 
-    static final String USER = ""; // If using SQL Auth, put username here
-    static final String PASS = ""; // If using SQL Auth, put password here
+    static final String USER = ""; 
+    static final String PASS = ""; 
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            // Load SQL Server JDBC Driver
+            
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
-            // Establish connection
+        
             Connection conn = DriverManager.getConnection(URL, USER, PASS);
             try {
                 System.out.println("Connected to Database!");
@@ -36,7 +35,7 @@ public class TradeApp {
                     System.out.print("Choose an option: ");
 
                     int choice = scanner.nextInt();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine(); 
 
                     switch (choice) {
                         case 1:
