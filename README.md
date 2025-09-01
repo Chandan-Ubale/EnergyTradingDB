@@ -96,11 +96,10 @@ static final String PASS = "your_password";
 ```
 
 ---
-![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/4382c80fbf94c1ffa9baf5259d836aec426fc653/WhatsApp%20Image%202025-08-29%20at%2015.22.53%20(1).jpeg)
-![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/WhatsApp%20Image%202025-08-29%20at%2015.22.53.jpeg)
-![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/WhatsApp%20Image%202025-08-29%20at%2015.22.54%20(1).jpeg)
-![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/WhatsApp%20Image%202025-08-29%20at%2015.22.54%20(2).jpeg)
-![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/WhatsApp%20Image%202025-08-29%20at%2015.22.54.jpeg)
+![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/result%201.png)
+![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/result%202.png)
+![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/result%203.png)
+![image alt](https://github.com/Chandan-Ubale/EnergyTradingDB/blob/master/result%204.png)
 ## Notes
 
 * Ensure SQL Server is running on **port 1433**.
